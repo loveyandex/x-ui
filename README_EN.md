@@ -52,6 +52,10 @@ For English Users,please use the following command to install English supported 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/loveyandex/x-ui/master/add-tls-certificate.sh)
 ``` 
+For English Users,please use the following command to install English supported version:  
+```
+bash <(curl -Ls https://raw.githubusercontent.com/loveyandex/x-ui/master/incloud-install.sh)
+``` 
 
 
 ## shortcut  
