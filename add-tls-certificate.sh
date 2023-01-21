@@ -3,11 +3,11 @@
 
 function call() {
 
-apt update -y && apt upgrade -y
+apt update -y
 
 apt-get install certbot -y
 
-domain="instance-1.crmocean.ir"
+domain=$1
 
 certbot certonly --standalone -d $domain --register-unsafely-without-email --non-interactive --agree-tos
 
