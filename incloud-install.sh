@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo -i
+
 
 bash <(curl -Ls https://raw.githubusercontent.com/openiran/x-ui/master/install.sh)
 
