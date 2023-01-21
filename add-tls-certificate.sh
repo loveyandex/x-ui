@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 sudo -i
 apt update -y && apt upgrade -y
 
