@@ -7,7 +7,7 @@ apt update -y
 
 apt-get install certbot -y
 
-echo "before host  is $1"
+echo "before host  is $1  $1"
 domain=$host
 echo "host is $domain"
 
