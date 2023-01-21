@@ -7,7 +7,7 @@ apt update -y
 
 apt-get install certbot -y
 
-echo "before host  is "
+echo "before host  is $1"
 domain=$host
 echo "host is $domain"
 
@@ -16,4 +16,4 @@ certbot certonly --standalone -d $domain --register-unsafely-without-email --non
 }
 
 
-call
+call $1
