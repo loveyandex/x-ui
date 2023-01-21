@@ -5,7 +5,7 @@ function call() {
 
 apt update -y && apt upgrade -y
 
-apt-get install certbot
+apt-get install certbot -y
 
 domain="cccc.com"
 
